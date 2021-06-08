@@ -1,0 +1,17 @@
+{
+  "name": "backcidades",
+  "version": "1.0.0",
+  "description": "segundo trabalho Desenvolvimento para dispositivos Móveis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ellon Gustavo Vairoletto",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2"
+  }
+}
