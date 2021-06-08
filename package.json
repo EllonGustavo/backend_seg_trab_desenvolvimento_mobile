@@ -9,6 +9,7 @@
   "author": "Ellon Gustavo Vairoletto",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.11.1",
     "mongoose": "^5.11.15",

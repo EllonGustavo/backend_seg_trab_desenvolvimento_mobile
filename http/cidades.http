@@ -1,0 +1,35 @@
+@baseUrl=http://localhost:4000
+@id=60bf9da7f23bf7074d14715f
+
+###
+GET {{baseUrl}}/cidades
+Content-Type: application/json
+
+###
+POST {{baseUrl}}/cidades
+Content-Type: application/json
+
+{   
+    "nome":"Porto Feliz",
+    "CEP":"18540000",
+    "teritorio":"15",
+    "qntHabitantes":"50000",
+    "descricao":"Cidade histórica/turistica"
+}
+
+###
+PUT {{baseUrl}}/cidades
+Content-Type: application/json
+
+{
+    "_id":"60bf9da7f23bf7074d14715f",
+    "nome":"P",
+    "CEP":"15",
+    "teritorio":"15",
+    "qntHabitantes":"50000",
+    "descricao":"Cidade histórica/turistica"
+}
+
+###
+DELETE  {{baseUrl}}/cidades/{{id}}
+Content-Type: application/json
